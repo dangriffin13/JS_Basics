@@ -6,7 +6,7 @@ the Mac JSC engine
 
 var globl = 360;
 
-const pi = 3.14159; //Math.PI
+const pi = Math.PI //3.14159...
 
 function declarations () {
     let within = 'scope confined to function';
