@@ -18,3 +18,14 @@ let getawayCar = new Car('Nissan', 'Sentra', '2014', 'Silver');
 console.log(getawayCar.make);
 console.log(getawayCar.paint);
 console.log(getawayCar.carReport());
+
+
+
+class Polygon {
+    constructor(sides) {
+        this.sides = sides;
+    }
+    perimeter() {
+        return this.sides.reduce((a,b) => a + b, 0);
+    }
+}
