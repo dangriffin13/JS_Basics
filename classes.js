@@ -29,3 +29,10 @@ class Polygon {
         return this.sides.reduce((a,b) => a + b, 0);
     }
 }
+
+
+class Square extends Polygon{
+    constructor(side) {
+        super(array(side*4));
+    }
+}
